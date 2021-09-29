@@ -50,7 +50,7 @@ app.get("/posts/:post", (req, res)=>{
     res.render('404.ejs');
   }
 });
-
-app.listen(5500, ()=>{
-  console.log("Server started on port 5500");
+const PORT = process.env.PORT || '5500';
+app.listen(PORT, ()=>{
+  console.log("Server started on port " + PORT);
 });
