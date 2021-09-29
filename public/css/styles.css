@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li{
+    margin-left: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-brand:hover{
+    color: #188d76 !important;
+}
+.content{
+    min-height: 100%;
+    margin-bottom: -99px;
+}
+p{
+    word-wrap: break-word;
+}
+.theek-kro{
+    padding-top: 20px;
+    padding-bottom: 99px;
+}
+.footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	background-color: #1abc9c;
+    padding: 20px;
+}
+.post-links{
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.post-links:hover{
+    color: #1b2926;
+}
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+.error404{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.read-more{
+    color: #1abc9c;
+}
+.read-more:hover{
+    color: #188d76;
+}
+textarea.form-control{
+    height: 200px;
+}

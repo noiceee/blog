@@ -1,0 +1,12 @@
+<%- include('partials/header') -%>
+<h1>Posts</h1>
+<p><%= homeStartingContent %></p>
+<% posts.forEach((element)=>{ %>
+    <hr>
+    <h1><a href="/posts/<%= element.title.replace(" ", "-").toLowerCase() %>" class="post-links"><%= element.title %></a></h1>
+    <p><%= element.content.slice(0, 300)+" ..." %> 
+    <a href="/posts/<%= element.title.replace(" ", "-").toLowerCase() %>" class="read-more">Read more</a></p>
+<% }) %>
+
+
+<%- include('partials/footer') -%>
